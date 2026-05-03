@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &kp F1        &kp F2         &kp F3                &kp F4                &kp F5    &kp F6     &kp F7      &kp F8  &kp F9     &kp F10  &kp BSPC
-&trans      &bt BT_SEL 0  &kp C_MUTE     &kp C_VOL_DN          &kp C_VOL_UP          &trans    &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT  &trans   &trans
-&bt BT_CLR  &bt BT_SEL 1  &Logout_MacOs  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans    &left_jmp  &right_jmp  &trans  &trans     &trans   &trans
-                                         &trans                &trans                &trans    &trans     &trans      &trans
+&trans  &kp F1        &kp F2         &kp F3                &kp F4                &kp F5    &kp F6     &kp F7      &kp F8  &kp F9     &kp F10  &kp BSPC
+&trans  &bt BT_SEL 0  &kp C_MUTE     &kp C_VOL_DN          &kp C_VOL_UP          &trans    &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT  &trans   &trans
+&trans  &bt BT_SEL 1  &Logout_MacOs  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans    &left_jmp  &right_jmp  &trans  &trans     &trans   &trans
+                                     &trans                &trans                &trans    &trans     &trans      &trans
             >;
         };
 
